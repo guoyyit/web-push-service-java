@@ -1,0 +1,15 @@
+package com.github.guoyyit.webpushservicejava.push.exception;
+
+public enum ErrorCode {
+    INVALID_ENDPOINT,
+    INVALID_KEY,
+    INVALID_REQUEST,
+    SUBSCRIPTION_NOT_FOUND,
+    VAPID_MISSING,
+    VAPID_MALFORMED,
+    VAPID_SIGNATURE_INVALID,
+    VAPID_EXPIRED,
+    VAPID_AUDIENCE_MISMATCH,
+    MESSAGE_EXPIRED,
+    INTERNAL_ERROR
+}
